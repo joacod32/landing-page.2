@@ -1,6 +1,6 @@
 
 const countdownEl = document.getElementById("countdown");
-const eventDate = new Date("2025-08-15T00:00:00-03:00");
+const eventDate = new Date("2025-08-14T00:00:00-03:00");
 
 function updateCountdown() {
   const now = new Date();
@@ -36,4 +36,5 @@ document.querySelectorAll('.pregunta').forEach(p => {
     }
   });
 });
+
 
